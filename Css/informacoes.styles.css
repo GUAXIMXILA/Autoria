@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo do header */
+header {
+    background-color: #ff5722;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* Estilo da seção */
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #ff5722;
+    margin-bottom: 15px;
+}
+
+/* Estilo das listas ordenadas e imagens */
+section ol {
+    margin-left: 20px;
+}
+
+section li {
+    margin-bottom: 15px;
+}
+
+section img {
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Estilo do artigo */
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+article h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilo da lista ordenada no artigo */
+article ul {
+    margin-left: 20px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px;
+    margin-top: 35px;            
+}
+
+footer p {
+    margin: 0;
+}

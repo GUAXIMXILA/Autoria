@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bfffbf;
+    color: #000000;
+    line-height: 2.0;
+    padding: 50px;
+}
+
+/* Estilo do header */
+header {
+    background: #000;
+    color: #ffe;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+/* Estilo da navegação */
+nav {
+    background: #000;
+    padding: 9px;
+    margin-top: 0px;
+    text-align: center ;
+}
+
+nav ul {
+    list-style-type: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 35px;
+}
+
+nav ul li a {
+    color: #ffe;
+    text-decoration: line;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da seção principal */
+section {
+    background: #777;
+    padding: 20px;
+    margin-top: 5px;
+    
+}
+
+section h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    text-align: center ;
+}
+
+section table {
+    width: 100%;
+    border-collapse: separate;
+    margin-bottom: 15px;
+    color: black;
+    background: white;
+    
+}
+
+section table, section td {
+    border: 5px solid #777;
+    padding: 10px;
+    text-align: left;
+}
+
+section img {
+    display: block;
+    margin: 10px auto;
+}
+
+
+/* Estilo do artigo */
+
+article {
+    background: #777;
+    padding: 20px;
+    margin-top: 5px;
+    
+}
+
+article h3 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    text-align: center ;
+}
+
+article table {
+    width: 100%;
+    border-collapse: separate;
+    margin-bottom: 15px;
+    color: black;
+    background: white;
+    
+}
+
+article table, article td {
+    border: 5px solid #777;
+    padding: 10px;
+    text-align: left;
+
+} 
+    
+/* Estilo do rodapé */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+  
+}
